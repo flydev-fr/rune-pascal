@@ -1,0 +1,141 @@
+{
+  "provenance": "Existing local mORMot2 static binaries retained from the tested snapshot; framework commit fc4c033da5520d25221025efb78fcc4ea55a55a0. Binary build provenance is not asserted beyond these exact hashes.",
+  "files": [
+    {
+      "path": "delphi/crc32c64.obj",
+      "sha256": "203da6bc0c1716c66be6ba97ce0b85334c00637312f669ac3d1fb71583c8ee54"
+    },
+    {
+      "path": "delphi/deflate.obj",
+      "sha256": "a377b5e8d7bc04ad27757026dc6e1c35cec77cd000e35294f11b529a05f9253d"
+    },
+    {
+      "path": "delphi/lizard1-32.dll",
+      "sha256": "f5846347b53f29483f98b576ccc54a51649e26a5578f0843fab2a3029b564abd"
+    },
+    {
+      "path": "delphi/lizard1-64.dll",
+      "sha256": "d463247951e2651cb7f37564cb843645b634a476e240cb2b055df6cb6b0fa558"
+    },
+    {
+      "path": "delphi/quickjs.o",
+      "sha256": "adf53d775a20e42138262beab0505da02dd5aae996fbccc6a454cb62320e3db4"
+    },
+    {
+      "path": "delphi/quickjs.obj",
+      "sha256": "c3839d029e2a85eba80878f7ea28717314f31f760775d109beb386f486c3e241"
+    },
+    {
+      "path": "delphi/sha512-x64sse4.obj",
+      "sha256": "1fe096b65252f47679f401e15d63473831bc731ddf346fd1a2d28d81e910078f"
+    },
+    {
+      "path": "delphi/sha512-x86.obj",
+      "sha256": "f5f62f68ad6eedbd7a722f9484950657830c0f3f25287b843c2cf009333792c5"
+    },
+    {
+      "path": "delphi/sqlite3-64.dll",
+      "sha256": "2363f33fccd7e33eff6020803951945a9a3cb483ba1a1cdf72a6af6eee434ce8"
+    },
+    {
+      "path": "delphi/sqlite3.o",
+      "sha256": "eee2aed7683e449adc7671406b0d3e95860b1cac54c0b451872548381cf54c4c"
+    },
+    {
+      "path": "delphi/sqlite3.obj",
+      "sha256": "b9bf598180a578947083156d0ee8fc4fbf27da6a744c7ae84fefa0a9449ab6d7"
+    },
+    {
+      "path": "delphi/zlibadler32.obj",
+      "sha256": "7b93e9c842ca8b852b2d9044c9482908153b4aca5bbd335b22126f7c3a66d95e"
+    },
+    {
+      "path": "delphi/zlibcompress.obj",
+      "sha256": "996db6107f54365930ec1e9d871c186effa7b67ae1d7c04b813956578df31a06"
+    },
+    {
+      "path": "delphi/zlibcrc32.obj",
+      "sha256": "ccc353aedd83e81306eaea1e9634c308688d3d900fac0a28c9fac13d2b20efad"
+    },
+    {
+      "path": "delphi/zlibdeflate.obj",
+      "sha256": "a377b5e8d7bc04ad27757026dc6e1c35cec77cd000e35294f11b529a05f9253d"
+    },
+    {
+      "path": "delphi/zlibinfback.obj",
+      "sha256": "de7be44dd03d378495e8a08633c43085e1d3241fa902baeeeb3ce4210757f9ba"
+    },
+    {
+      "path": "delphi/zlibinffast.obj",
+      "sha256": "a5dcab411798b55008fd40ab10461b26e37284ed9eddc76be3bae1307f923537"
+    },
+    {
+      "path": "delphi/zlibinflate.obj",
+      "sha256": "f39c457ad899c5c47025918d8caefcdd24c1fc03f100aecc88cb0523e2eabcc6"
+    },
+    {
+      "path": "delphi/zlibinftrees.obj",
+      "sha256": "3bf73e91038fba2f63a3725e553b7e8a06dc0db755241c1d7bb88e1cba68ffbb"
+    },
+    {
+      "path": "delphi/zlibtrees.obj",
+      "sha256": "efaa9824dd1865ed51c8849ede1a7b938e875b489ab16e132a5fafe984577be8"
+    },
+    {
+      "path": "x86_64-win64/adler32.o",
+      "sha256": "f48ea829a5006bf6e97628c0acb963e78f6dcf29478367663a56dd3896329ca5"
+    },
+    {
+      "path": "x86_64-win64/crc32.o",
+      "sha256": "1a5c91bec031d5131e0ee137a748f65b9e1097ec5f9b694516bcd97dfd0c16fc"
+    },
+    {
+      "path": "x86_64-win64/deflate.o",
+      "sha256": "4c5cdecf4f8379846f5270e825b0f536f05443b0b3a9670a44ecb528472eb250"
+    },
+    {
+      "path": "x86_64-win64/inffast.o",
+      "sha256": "581f0d9c4f628253d7d3b8ff7c2dec744104ac3a20f2b4feddfc39d38b99cdd5"
+    },
+    {
+      "path": "x86_64-win64/inflate.o",
+      "sha256": "c9f50129cda609806d2f69ba64418f122b5d9374fdd0751e177d355f78bdf425"
+    },
+    {
+      "path": "x86_64-win64/inftrees.o",
+      "sha256": "502ec65bd4da824c290605d3a15eca1a18a999f128df221864bb1f8e175b2988"
+    },
+    {
+      "path": "x86_64-win64/libdeflatepas.a",
+      "sha256": "ce1e278f9ee7e72c0ce6ad147ceb21bb54541ecc1df9fcb1242464e878abda60"
+    },
+    {
+      "path": "x86_64-win64/libkernel32.a",
+      "sha256": "2417d721641d0f15ae18f9d6902dbe8a104755cb1488cbda703dab0ea9668ad0"
+    },
+    {
+      "path": "x86_64-win64/liblizard.a",
+      "sha256": "aacaa21f6a05c2e8a8bc33ff4f39ef5f9a36ca47366d9e9e6bfa029dbf6fc67b"
+    },
+    {
+      "path": "x86_64-win64/libsqlite3-64.a",
+      "sha256": "6b64f3e74329d6495d7109f99671deffdfd50e954bb8a81f143ab4144132a747"
+    },
+    {
+      "path": "x86_64-win64/quickjs.o",
+      "sha256": "1d86afa4384d2f50104646f6b58acab2271b582817a7895edc1f1ee8a9601f17"
+    },
+    {
+      "path": "x86_64-win64/sqlite3.o",
+      "sha256": "eaf4ffc3ec32390ee94662d6769cc0e7dd712b71ef5059418e298a0599819a6e"
+    },
+    {
+      "path": "x86_64-win64/trees.o",
+      "sha256": "c33dcdcf36b3a49b4902be5110afcc3f2f1c112c707b0a73b56207f4623d54b5"
+    },
+    {
+      "path": "x86_64-win64/zutil.o",
+      "sha256": "14e2a02f80b87ecddfd6da4e93ec9a3cbf086f4972ac343dd9cc7b2b6e0be585"
+    }
+  ]
+}

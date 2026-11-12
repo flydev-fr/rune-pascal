@@ -1,0 +1,26 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{3A63E2E4-0F3A-4AC6-9123-94A6CE891004}</ProjectGuid>
+    <ProjectVersion>20.3</ProjectVersion>
+    <MainSource>RuneLabTests.dpr</MainSource>
+    <Base>True</Base>
+    <Config Condition="'$(Config)'==''">Release</Config>
+    <Platform Condition="'$(Platform)'==''">Win64</Platform>
+    <AppType>Console</AppType>
+    <FrameworkType>VCL</FrameworkType>
+    <TargetedPlatforms>2</TargetedPlatforms>
+    <RepoRoot>$(MSBuildProjectDirectory)\..\..</RepoRoot>
+    <DCC_ExeOutput>$(RepoRoot)\build\bin</DCC_ExeOutput>
+    <DCC_DcuOutput>$(RepoRoot)\build\dcu\$(MSBuildProjectName)\$(Platform)\$(Config)</DCC_DcuOutput>
+    <DCC_UnitSearchPath>$(RepoRoot)\src\pascal;$(RepoRoot)\examples\pascal;$(RepoRoot)\vendor\mormot2\src\core;$(RepoRoot)\vendor\mormot2\src\crypt;$(RepoRoot)\vendor\mormot2\src\lib;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+    <DCC_IncludePath>$(RepoRoot)\vendor\mormot2\src;$(DCC_IncludePath)</DCC_IncludePath>
+    <DCC_Namespace>System;Winapi;Vcl</DCC_Namespace>
+    <DCC_UsePackage></DCC_UsePackage>
+    <DCC_Optimize>true</DCC_Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Debug'">
+    <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+  </PropertyGroup>
+  <ItemGroup><DelphiCompile Include="$(MainSource)"><MainSource>MainSource</MainSource></DelphiCompile></ItemGroup>
+  <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" />
+</Project>

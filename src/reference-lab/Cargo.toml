@@ -1,0 +1,19 @@
+[package]
+name = "rune-pascal-lab"
+version = "0.0.1"
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+rune = { path = "../../vendor/rune/crates/rune" }
+rune-motion = { path = "../../vendor/rune/crates/rune-motion" }
+rune-fx = { path = "../../vendor/rune/crates/rune-fx" }
+rune-light = { path = "../../vendor/rune/crates/rune-light" }
+wgpu = { version = "30", default-features = false, features = ["std", "parking_lot", "metal", "wgsl"] }
+bytemuck = { version = "1.25", features = ["derive"] }
+
+[target.'cfg(not(target_os = "macos"))'.dependencies]
+wgpu = { version = "30", default-features = false, features = ["vulkan", "dx12"] }
+
+[lints]
+workspace = true

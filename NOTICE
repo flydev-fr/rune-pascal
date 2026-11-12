@@ -1,0 +1,10 @@
+Rune Pascal
+Copyright (c) 2026 flydev-fr. Project-owned code: MIT.
+Rune: Copyright (c) 2026 Anomaly. See vendor/rune/LICENSE.
+mORMot2 (test framework): Copyright (c) 2026 Arnaud Bouchez.
+See vendor/mormot2/LICENCE.md for the retained license choice.
+Inter and IBM Plex Mono retain their included font licenses.
+Bindings: https://github.com/flydev-fr/chet-cli, based on Chet and Neslib.Clang
+by Erik van Bilsen: https://github.com/neslib/Chet and https://github.com/neslib/Neslib.Clang.
+See LICENSES/Chet-BSD-2-Clause.txt. Build tools are not bundled executables.
+Rust dependency notices are collected into the package legal/ directory.

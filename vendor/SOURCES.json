@@ -1,0 +1,14 @@
+{
+  "sources": {
+    "rune": {
+      "origin": "https://github.com/anomalyco/rune.git",
+      "commit": "a7f276c3630f85a06a0230295da4d2bd172d8d3b",
+      "adapters": "src/reference-lab and src/reference-settings expose the original reference demos as libraries; upstream files stay unchanged."
+    },
+    "mormot2": {
+      "origin": "https://github.com/synopse/mORMot2.git",
+      "commit": "fc4c033da5520d25221025efb78fcc4ea55a55a0",
+      "static_inputs": "Exact pre-existing tested static binaries are retained separately in support/mormot2-static with SHA-256 hashes."
+    }
+  }
+}

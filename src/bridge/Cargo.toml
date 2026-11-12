@@ -1,0 +1,22 @@
+[package]
+name = "rune-pas"
+version = "0.1.0"
+license = "MIT"
+authors = ["flydev-fr"]
+edition.workspace = true
+
+[lib]
+name = "rune_pas"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+rune-kit = { path = "../../vendor/rune/crates/rune-kit" }
+raw-window-handle = "0.6"
+rune-fx = { path = "../../vendor/rune/crates/rune-fx" }
+wgpu = { version = "30", default-features = false, features = ["std", "parking_lot", "metal", "wgsl"] }
+lab = { package = "rune-pascal-lab", path = "../reference-lab" }
+rune = { path = "../../vendor/rune/crates/rune" }
+settings = { package = "rune-pascal-settings", path = "../reference-settings" }
+
+[lints]
+workspace = true
